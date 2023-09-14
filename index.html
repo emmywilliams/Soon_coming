@@ -1,765 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/boxicons.min.css" />
-    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- intl-tel-input CSS -->    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
-    <!-- intl-tel-input JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
-    <!-- utils.js for formatting numbers -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Fussilat</title>
-  </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- Navbar -->
-    <nav class="top-nav" id="home">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-auto">
-            <p>
-              <i class="bx bxs-envelope"></i>
-              <span>fussilat@gmail.com</span>
-            </p>
-            <p>
-              <i class="bx bxs-phone-call"></i>
-              <span>+256 (0) 700363236</span>
-            </p>
-          </div>
-          <div class="col-auto">
-            <div class="social-links">
-              <a href="#"><i class="bx bxl-facebook"></i></a>
-              <a href="#"><i class="bx bxl-twitter"></i></a>
-              <a href="#"><i class="bx bxl-instagram"></i></a>
-              <a href="#"><i class="bx bxl-whatsapp"></i></a>                     
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/boxicons.min.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- intl-tel-input CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+  <!-- intl-tel-input JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+  <!-- utils.js for formatting numbers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-      <div class="container">
-        <a class="navbar-logo" href="index.html">
-          <img src="/images/logo.png" alt="Logo"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home" onclick="closeNavbar()">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about" onclick="closeNavbar()">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services" onclick="closeNavbar()">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio" onclick="closeNavbar()">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#team" onclick="closeNavbar()">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reviews" onclick="closeNavbar()">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog" onclick="closeNavbar()">Blog</a>
-            </li>
-          </ul>
-          <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#exampleModal" >Contact Us</a>
-        </div>
-      </div>
-    </nav>    
+  <title>Fussilat</title>
+</head>
 
-    <!-- Slider -->
-    <div class="owl-carousel owl-theme" id="hero-slider">
-      <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="text-white">
-                A leading technical and vocational education provider in Uganda.
-              </h6>
-              <h1 class="display-2 my-3 text-white">
-                Welcome to <br />
-                Fussilat Training & Skilling Center
-              </h1>
-              <a href="#" class="btn btn-brand">Get Started</a>
-              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
-            </div>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+    <div class="container">
+      <a class="navbar-logo" href="index.html">
+        <img src="/images/logo.png" alt="Logo"></a>
+    </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 intro">
+          <h6 style="text-align: center;">ABOUT US</h6>
+          <h1 style="text-align: center;">Who we are...</h1>
+          <p>
+            Fussilat Training and Skilling Center (FTSC) is a leading institute that offers quality education and
+            training in various fields since 2022. FTSC aims to develop professional human resources who can excel in
+            their careers and contribute to the society. <br>
+
+            FTSC offers courses in hospitality, arts, leadership, and entrepreneurship, among others. FTSC follows the
+            world-renowned Australian Model of Competency Based Training (CBT), which ensures that the students not only
+            acquire knowledge, but also develop skills and attitudes that enable them to perform effectively in their
+            chosen fields. <br>
+
+            FTSC has received international recognition and awards for its excellence in education and training. FTSC
+            has also provided corporate training to many national and transnational organizations, enhancing their human
+            capital and productivity. FTSC is more than just an institute; it is a community of learners, innovators,
+            and leaders who are ready to make a positive impact in the world.
+          </p>
+          <div class="text-center">
+            <a href="#" class="btn btn-brand">Get Started</a>
+            <a href="#" class="btn btn-outline-light ms-md-3">More...</a>
           </div>
         </div>
-      </div>
-      <div
-        class="slide2 min-vh-100 bg-cover d-flex align-items-center"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="text-white">
-                FTSC is more than just a training center.
-              </h6>
-              <h1 class="display-2 my-3 text-white">
-                It is a community of learners, <br />
-                innovators, and leaders
-              </h1>
-              <a href="#" class="btn btn-brand">Get Started</a>
-              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slide3 min-vh-100 bg-cover d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="text-white">
-                FTSC is more than just a training center.
-              </h6>
-              <h1 class="display-2 my-3 text-white">
-                It is a community of learners, <br />
-                innovators, and leaders
-              </h1>
-              <a href="#" class="btn btn-brand">Get Started</a>
-              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="slide4 min-vh-100 bg-cover d-flex align-items-center"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h6 class="text-white">
-                FTSC is more than just a training center.
-              </h6>
-              <h1 class="display-2 my-3 text-white my-h1">
-                It is a community of learners, <br />
-                innovators, and leaders
-              </h1>
-              <a href="#" class="btn btn-brand">Get Started</a>
-              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <img src="./images/about.png" alt="image" />
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- About -->
-<section id="about">
-  <div class="container">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-md-6 intro">
-        <h6 style="text-align: center;">ABOUT US</h6>
-        <h1 style="text-align: center;">Who we are...</h1>
-        <p>
-          Fussilat Training and Skilling Center (FTSC) is a leading institute that offers quality education and training in various fields since 2022. FTSC aims to develop professional human resources who can excel in their careers and contribute to the society. <br>
-
-          FTSC offers courses in hospitality, arts, leadership, and entrepreneurship, among others. FTSC follows the world-renowned Australian Model of Competency Based Training (CBT), which ensures that the students not only acquire knowledge, but also develop skills and attitudes that enable them to perform effectively in their chosen fields. <br>
-          
-          FTSC has received international recognition and awards for its excellence in education and training. FTSC has also provided corporate training to many national and transnational organizations, enhancing their human capital and productivity. FTSC is more than just an institute; it is a community of learners, innovators, and leaders who are ready to make a positive impact in the world.
+  <!-- Footer -->
+  <footer>
+    <div class="footer-bottom">
+      <div class="container text-center align-items-center">
+        <p class="mb-0">
+          &copy; 2023 <strong><span>Fussilat</span></strong>. All Rights Reserved
         </p>
-        <div class="text-center">
-          <a href="#" class="btn btn-brand">Get Started</a>
-          <a href="#" class="btn btn-outline-light ms-md-3">More...</a>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <img src="./images/about.png" alt="image" />
       </div>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- Milestone -->
-<section class="bg-cover" id="milestone">
-  <div class="container">
-    <div class="row gy-4 text-center justify-content-center">
-      <div class="col-lg-3 col-md-6">
-        <div class="milestone-box">
-          <div class="display-4" data-val="445">445</div>
-          <p class="mb-0">Happy clients</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="milestone-box">
-          <div class="display-4" data-val="568">568</div>
-          <p class="mb-0">Satisfied customers</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="milestone-box">
-          <div class="display-4" data-val="246">246</div>
-          <p class="mb-0">Projects completed</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="milestone-box">
-          <div class="display-4" data-val="124">124</div>
-          <p class="mb-0">Awards received</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
 
-
-
-<!-- Milestone -->
-<!-- <section class="bg-cover" id="milestone">
-  <div class="container">
-    <div class="row gy-4 text-center justify-content-center">
-      <div class="col-lg-2 col-sm-6">
-        <div class="display-4 number" data-val="445">0</div>
-        <p class="mb-0">Happy clients</p>
-      </div>
-      <div class="col-lg-2 col-sm-6">
-        <div class="display-4 number" data-val="568">0</div>
-        <p class="mb-0">Completed Projects</p>
-      </div>
-      <div class="col-lg-2 col-sm-6">
-        <div class="display-4 number" data-val="246">0</div>
-        <p class="mb-0">Hours Worked</p>
-      </div>
-      <div class="col-lg-2 col-sm-6">
-        <div class="display-4 number" data-val="124">0</div>
-        <p class="mb-0">Awards Received</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-    
-
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro text-center">
-            <h6>OUR SERVICES</h6>
-            <h1>What we provide?</h1>
-            <p>
-              If you are looking for a rewarding and fulfilling learning
-              experience, join FTSC today. You will discover new opportunities,
-              new challenges, and new possibilities.
-            </p>
-          </div>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/21.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/cl.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/17.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/cl3.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/15.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service-box">
-              <img src="./images/travel.jpg" alt="image" />
-              <div class="service-content">
-                <h5>Hotel Management</h5>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-                <a href="#" class="btn btn-brand">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro text-center">
-            <h6>OUR WORK</h6>
-            <h1>Our Recent Work</h1>
-            <p>
-              If you are looking for a rewarding and fulfilling learning
-              experience, join FTSC today. You will discover new opportunities,
-              new challenges, and new possibilities.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="project-slider" class="owl-theme owl-carousel">
-        <div class="project">
-          <img src="./images/21.jpg" alt="image" />
-          <div class="overlay"></div>
-          <div class="content">
-            <h1>Project Title</h1>
-            <h6>Project Subtitle</h6>
-          </div>
-        </div>
-        <div class="project">
-          <img src="./images/cl.jpg" alt="image" />
-          <div class="overlay"></div>
-          <div class="content">
-            <h1>Project Title</h1>
-            <h6>Project Subtitle</h6>
-          </div>
-        </div>
-        <div class="project">
-          <img src="./images/cl3.jpg" alt="image" />
-          <div class="overlay"></div>
-          <div class="content">
-            <h1>Project Title</h1>
-            <h6>Project Subtitle</h6>
-          </div>
-        </div>
-        <div class="project">
-          <img src="./images/17.jpg" alt="image" />
-          <div class="overlay"></div>
-          <div class="content">
-            <h1>Project Title</h1>
-            <h6>Project Subtitle</h6>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro text-center">
-            <h6>OUR TEAM</h6>
-            <h1>Meet Our Team</h1>
-            <p>
-              If you are looking for a rewarding and fulfilling learning
-              experience, join FTSC today. You will discover new opportunities,
-              new challenges, and new possibilities.
-            </p>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="team-member">
-                <div class="img-wrapper">
-                  <img src="./images/7.png" alt="image" />
-                  <div class="overlay"></div>
-                  <div class="social-links">
-                    <a href="#"><i class="bx bxl-facebook"></i></a>
-                    <a href="#"><i class="bx bxl-twitter"></i></a>
-                    <a href="#"><i class="bx bxl-instagram"></i></a>
-                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
-                  </div>
-                </div>
-                <div class="content">
-                  <h4>John Doe</h4>
-                  <h6>CEO & Founder</h6>
-                  <p>
-                    If you are looking for a rewarding and fulfilling learning
-                    experience, join FTSC today.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="team-member">
-                <div class="img-wrapper">
-                  <img src="./images/5.png" alt="image" />
-                  <div class="overlay"></div>
-                  <div class="social-links">
-                    <a href="#"><i class="bx bxl-facebook"></i></a>
-                    <a href="#"><i class="bx bxl-twitter"></i></a>
-                    <a href="#"><i class="bx bxl-instagram"></i></a>
-                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
-                  </div>
-                </div>
-                <div class="content">
-                  <h4>John Doe</h4>
-                  <h6>CEO & Founder</h6>
-                  <p>
-                    If you are looking for a rewarding and fulfilling learning
-                    experience, join FTSC today.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="team-member">
-                <div class="img-wrapper">
-                  <img src="./images/1.png" alt="image" />
-                  <div class="overlay"></div>
-                  <div class="social-links">
-                    <a href="#"><i class="bx bxl-facebook"></i></a>
-                    <a href="#"><i class="bx bxl-twitter"></i></a>
-                    <a href="#"><i class="bx bxl-instagram"></i></a>
-                    <a href="#"><i class="bx bxl-whatsapp"></i></a>
-                  </div>
-                </div>
-                <div class="content">
-                  <h4>John Doe</h4>
-                  <h6>CEO & Founder</h6>
-                  <p>
-                    If you are looking for a rewarding and fulfilling learning
-                    experience, join FTSC today.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Reviews -->
-    <section id="reviews" class="bg-cover">
-      <div class="owl-carousel owl-theme" id="reviews-slider">
-        <div class="review">
-          <img src="./images/1.png" alt="image" />
-          <h4>Emmy Williams</h4>
-          <small>CEO & Founder</small>
-          <p>
-            I have also provided you with an example of how you can implement
-            this using jQuery animateNumber and jQuery Waypoints in my previous
-            response. You can use it as a reference, but I encourage you to try
-            to write your own code and experiment with different options and
-            values. That way, you will learn more and improve your web
-            development skills.
-          </p>
-        </div>
-        <div class="review">
-          <img src="./images/1.png" alt="image" />
-          <h4>Zicrane Kimbugwe</h4>
-          <small>Executive Director</small>
-          <p>
-            I have also provided you with an example of how you can implement
-            this using jQuery animateNumber and jQuery Waypoints in my previous
-            response. You can use it as a reference, but I encourage you to try
-            to write your own code and experiment with different options and
-            values. That way, you will learn more and improve your web
-            development skills.
-          </p>
-        </div>
-        <div class="review">
-          <img src="./images/1.png" alt="image" />
-          <h4>Simon Peter</h4>
-          <small>Non-Executive Director</small>
-          <p>
-            I have also provided you with an example of how you can implement
-            this using jQuery animateNumber and jQuery Waypoints in my previous
-            response. You can use it as a reference, but I encourage you to try
-            to write your own code and experiment with different options and
-            values. That way, you will learn more and improve your web
-            development skills.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Blog -->
-    <section id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro text-center">
-            <h6>OUR BLOG</h6>
-            <h1>Latest News</h1>
-            <p>
-              If you are looking for a rewarding and fulfilling learning
-              experience, join FTSC today. You will discover new opportunities,
-              new challenges, and new possibilities.
-            </p>
-          </div>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4">
-            <div class="blog-post">
-              <a href="#" class="tag">Going abroad</a>
-              <img src="./images/13.jpeg" alt="image" />
-              <div class="service-content">
-                <small>03 Dec, 1999</small>
-                <h4>
-                  <a href="#">Going abroad in 1999</a>
-                </h4>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="blog-post">
-              <a href="#" class="tag">Going abroad</a>
-              <img src="./images/16.jpg" alt="image" />
-              <div class="service-content">
-                <small>03 Dec, 1999</small>
-                <h4>
-                  <a href="#">Going abroad in 1999</a>
-                </h4>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="blog-post">
-              <a href="#" class="tag">Going abroad</a>
-              <img src="./images/15.jpg" alt="image" />
-              <div class="service-content">
-                <small>03 Dec, 1999</small>
-                <h4>
-                  <a href="#">Going abroad in 1999</a>
-                </h4>
-                <p>
-                  If you are looking for a rewarding and fulfilling learning
-                  experience, join FTSC today. You will discover new
-                  opportunities, new challenges, and new possibilities.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-top">
-        <div class="container">
-          <d class="row">          
-            <div class="col-md-4 mb-3">
-              <a class="logo-footer" href="index.html">
-                <img src="/images/logo.png" alt="logo">
-              </a>              
-                <h4>Working hours</h4>
-                <ul>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>
-                    Monday - Thursday: 9am to 6pm
-                  </li>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>
-                    Friday: 9am - 12:30pm, 2:30 - 6pm
-                  </li>
-                  <li>
-                    <i class="bx bx-chevron-right"></i>
-                    Saturday & Sunday off
-                  </li>
-                </ul> 
-            </div>
-
-            <div class="col-md-4 footer-links mb-3">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Contact Us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>
-          </div>
-
-          <div class="col-md-4 footer-contact mb-3">
-            <h4>Address</h4>
-            <p>
-              Lweza, Entebbe - Wakiso,<br />
-              Plot 1948, <br>
-              P.O.Box 288,
-              <br />
-              Kampala, Uganda.              
-            </p>
-
-            <h4>Contact Us</h4>
-
-            <div class="col-auto contact-info">
-              <p>
-                  <i class="bx bxs-envelope"></i>
-                  <span>fussilat@gmail.com</span>
-              </p>
-              <p>
-                  <i class="bx bxs-phone-call"></i>
-                  <span>+256 (0) 700363236</span>
-              </p>
-            </div>
-          
-            
-              <div class="social-links">
-                <a href="#"><i class="bx bxl-facebook"></i></a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
-                <a href="#"><i class="bx bxl-instagram"></i></a>
-                <a href="#"><i class="bx bxl-whatsapp"></i></a>
-              </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <div class="container text-center align-items-center">
-          <p class="mb-0">
-            &copy; 2023 <strong><span>Fussilat</span></strong
-            >. All Rights Reserved
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Modal --> 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body p-0">
-            <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-4 bg-cover image-section" style="background-image: url(./images/p.png); background-position: center;"></div>
-
-              <div class="col-lg-8">
-
-                <form action="" class="row custom-padding gy-3">
-                  <div class="col-lg-12 justify-content-center text-center">
-                      <h1>Get in touch</h1>
-                      <p>Reach out to us if you are looking for a rewarding and fulfilling learning experience.</p>
-                  </div>
-                  <div class="col-lg-6">
-                      <label for="exampleFormControlInput1" class="form-label">First name</label>
-                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John">
-                  </div>
-                  <div class="col-lg-6">
-                      <label for="exampleFormControlInput1" class="form-label">Last name</label>
-                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-                  </div>
-
-                  <div class="col-lg-6">
-                    <label for="phone" class="form-label">Phone</label>
-                    <input type="text" class="form-control" id="phone" placeholder="700000000">
-                  </div>
-
-                  <div class="col-lg-6">
-                      <label for="exampleFormControlInput1" class="form-label">Email</label>
-                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@gmail.com">
-                  </div>
-                  <div class="col-lg-12">
-                      <label for="message" class="form-label">Message</label>
-                      <textarea name="message" class="form-control" id="exampleFormControlTextarea1" cols="30" rows="4" placeholder="Type your message here"></textarea>
-                  </div>
-                  <div class="col-lg-12 text-center align-items-center">
-                      <button type="button" class="btn btn-brand">Send</button>
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  </div>
-              </form>
-
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/app.js"></script>
-  </body>
 </html>
