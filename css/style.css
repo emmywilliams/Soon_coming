@@ -3,14 +3,25 @@
 body {
     font-family: 'Barlow', sans-serif;    
     line-height: 1.7;
-    color: #516171;
+    color: #ffffff;
     font-size: large;
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-weight: 700;
-    color: #092032;
-} 
+    font-size: 70px;
+    color: #FFCB57;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #ffffff;
+}
 
 a {
     color: #092032;
@@ -537,10 +548,10 @@ p.mb-0 {
 
 /* Footer */
 footer {
-    padding-top: 70px;
+    padding-top: 20px;
     padding-bottom: 20px;
     color: #ffffff;
-    background-color: #091e32;
+    background-color: transparent;
 }
 
 .logo-footer img {
@@ -650,3 +661,59 @@ footer .social-links a {
 form h1 {
     color: #8F3694;
 }
+
+.count-down {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-down .timer {
+    height: 90px;
+    width: 90px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.count-down .timer .num {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.count-down .timer .text {
+    font-size: 15px;
+    color: #FFCB57;
+}
+
+.count-down .clone {
+   font-size: 45px;
+}
+
+.timer {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .play-store {
+    color: #FFCB57;
+    margin-left: 20px;
+    padding-top: 25px;
+  }
+  
+.background-image {
+    background-image: url("/images/ph.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
