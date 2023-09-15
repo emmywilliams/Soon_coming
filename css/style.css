@@ -717,3 +717,27 @@ form h1 {
     background-position: center;
 }
 
+.rocket {
+    width: 250px;
+    position: fixed;
+    right: 10%;
+    bottom: -100px;
+    animation: bottom 2s linear infinite;
+}
+
+/* Create a CSS animation for the rocket */
+@keyframes moveRocket {
+    from {
+      bottom: -100px;
+    }
+    to {
+      bottom: 105%; /* Adjust the final position of the rocket */
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation to the rocket */
+  .rocket.move-up {
+    animation: moveRocket 5s linear infinite; /* Adjust the animation duration as needed */
+  }
+

@@ -59,6 +59,9 @@
       </div>
     </div>
   </section>
+  <!-- rocket -->
+  <img src="/images/rocket.png" alt="Rocket" class="rocket">
+
 
   <!-- counter -->
   <div class="col-lg-12 count-down">
@@ -125,6 +128,13 @@
         clearInterval(timer);
       }
     }, 1000);
+
+    // Wait for the document to fully load
+    document.addEventListener("DOMContentLoaded", function () {
+      // Add a class to the rocket element to start the animation
+      const rocket = document.querySelector(".rocket");
+      rocket.classList.add("move-up");
+    });
   </script>
 
   <!-- Footer -->
